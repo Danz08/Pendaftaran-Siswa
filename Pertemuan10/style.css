@@ -1,0 +1,263 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  height: 100vh;
+  display: flex;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 40px;
+  color: black;
+  margin: 20px auto;
+  width: fit-content;
+  text-align: center;
+}
+
+#edit {
+  color: black;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+
+.hero-buttons a {
+  text-decoration: none;
+  padding: 12px 24px;
+  margin: 0 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #e2e6ea;
+}
+
+.btn-secondary {
+  background-color: white;
+  border: 2px solid #ffffff;
+  color: black;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Header */
+.main-header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  z-index: 1000;
+  color: white;
+  padding: 16px 0;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  max-height: 30px;
+  margin: auto;
+  padding: 0 2px;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #1cc88a;
+}
+
+/* Footer */
+.main-footer {
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  color: white;
+  padding: 20px 0;
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.9rem;
+  max-height: 30px;
+  box-shadow: 16PX 0 6px rgba(0,0,0,0.1);
+}
+
+/* Layout dasar body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Kontainer fleksibel */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Formulir */
+.form-container {
+  background-color: #fff5e1;
+  width: 75%;
+  max-width: none;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-container label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+  color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: border-color 0.3s ease;
+}
+
+.form-container input:focus,
+.form-container select:focus,
+.form-container textarea:focus {
+  border-color: #1cc88a;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #1cc88a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #17a673;
+}
+
+/* Tabel */
+.table-wrapper {
+  background-color: #fff5e1;
+  width: 75%;
+  max-width: none;
+  margin: 60px auto;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+table th {
+  background-color: #1cc88a;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.table-actions a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #4e73df;
+  font-weight: 500;
+}
+
+.table-actions a:hover {
+  text-decoration: underline;
+  color: #2e59d9;
+}
+
+.cancel-btn {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #e74c3c;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b;
+}
